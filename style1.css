@@ -1,0 +1,60 @@
+*{
+    background-color:beige;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.projects{
+    border-radius: 12px;
+}
+
+.pr1,.pr2{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#em,#nm{
+    color: darkred;
+}
+
+.new1,.new2{
+    color: black;
+    padding: 10px;
+    border-radius:12px;
+    border: 2px solid black;
+    
+}
+
+.end{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#msg{
+    color: black;
+    padding: 10px;
+    border-radius:12px;
+    border: 2px solid black;
+    
+}
+
+#btn{
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
