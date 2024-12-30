@@ -3,65 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Harish Reddy Profile</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <div>
-        <section>
-            <h1>ABOUT ME</h1>
-            <div>
-            <h3>1.Basic Info</h3>
-            <p>  Hello, I am D. Harish Reddy, a B.Tech student specializing in Computer Science and Engineering with IoT at G. Pullaiah College of Engineering and Technology. I am passionate about exploring IoT technologies and enjoy working on innovative projects that integrate hardware and software.  
-                 You can reach me at harishdevireddy12@gmail.com or 8639985853.  
-                </p>
+    <div class="container">
+        <header class="header">
+            <div class="profile-img">
+                <img src="ha.jpg" alt="Profile Image">
             </div>
-            <div>
-            <h3>2.Skills</h3>
+            <div class="info">
+                <h1>PROFILE</h1>
+                <p><strong>INTRODUCTION:</strong> Hello, I am D. Harish Reddy, a B.Tech student specializing in Computer Science and Engineering with IoT at G. Pullaiah College of Engineering and Technology. I am passionate about exploring IoT technologies and enjoy working on innovative projects that integrate hardware and software.</p>
+                <p>Contact me at: <a href="mailto:harishdevireddy12@gmail.com">harishdevireddy12@gmail.com</a> | Phone: 8639985853</p>
+            </div>
+        </header>
+
+        <section>
+            <h3>Skills</h3>
             <ul>
                 <li>JAVA</li>
                 <li>C</li>
                 <li>Python</li>
                 <li>DSA</li>
             </ul>
-            </div>
-            <div class="projects">
-            <h3>3.Projects</h3>
-             <ol type="I">
-                <li class="pr1">Climate Prediction Website:</li>
-                 <p>Objective:To create a user-friendly weather app delivering real-time updates with engaging visual
-                    elements.<br>
-                    Display weather information such as temperature, humidity, and overall conditions.<br>
-                    Provide a visually engaging user experience by incorporating emojis that represent weather conditions.</p>
-                <p>Project link:https://github.com/HarishDevireddy09/Weather-App</p>
-                <li class="pr2">Fire Detection Alarm:</li>
-                <p>Objective:Utilizes sensors to monitor gas levels and detect fire occurrences.<br>
-                 Provides immediate alarms and notifications upon detecting hazardous conditions.<br>
-                 Designed for use in residential and commercial kitchens.</p>
+        </section>
 
-             </ol>
+        <section>
+            <h3>Projects</h3>
+            <div class="projects">
+                <div>
+                    <h4>Climate Prediction Website</h4>
+                    <p>Objective: To create a user-friendly weather app delivering real-time updates with engaging visual elements. Display weather information such as temperature, humidity, and overall conditions. Provide a visually engaging user experience by incorporating emojis that represent weather conditions.</p>
+                    <a href="https://github.com/HarishDevireddy09/Weather-App" target="_blank">Project Link</a>
+                </div>
+                <div>
+                    <h4>Fire Detection Alarm</h4>
+                    <p>Objective: Utilizes sensors to monitor gas levels and detect fire occurrences. Provides immediate alarms and notifications upon detecting hazardous conditions. Designed for use in residential and commercial kitchens.</p>
+                </div>
             </div>
         </section>
+
         <section>
-            <img src="ha.jpg" alt="my image" id="profile-img">
             <h3>Hobbies</h3>
             <ul>
                 <li>Playing Cricket</li>
-                <li>Listening music</li>
-                <li>watching movies</li>
+                <li>Listening to Music</li>
+                <li>Watching Movies</li>
             </ul>
         </section>
-        <section>
+
+        <section class="contact">
             <h3>Contact Me</h3>
-            <label id="nm">Enter your name:</label>
-            <input type="text" id="nm" placeholder="Ex:John Doe" class="new1"><br><br>
-            <label id="em">Enter your e-mail:</label>
-            <input type="email" id="em" placeholder="Ex:someone@gmail.com" class="new2"><br><br>
-            <textarea id="msg" rows="5" cols="30" placeholder="Enter your message here"></textarea><br>
-            <button id="btn" type="submit">Submit</button>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="John Doe">
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" placeholder="someone@example.com">
+
+            <label for="message">Enter your message:</label>
+            <textarea id="message" rows="5" placeholder="Your message here..."></textarea>
+
+            <button type="submit">Submit</button>
         </section>
 
-        <p class="end">THANK YOU VISIT AGAIN</p>
+        <footer class="footer">
+            <p>THANK YOU, VISIT AGAIN</p>
+        </footer>
     </div>
 </body>
 </html>
